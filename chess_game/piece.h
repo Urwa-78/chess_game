@@ -19,7 +19,7 @@ public:
 	virtual char getsymbol()const = 0;
 	virtual string getname()const = 0;
 	//getters
-	char getcolor() const;
+	char getcolor() const { return color; }
 	char getrow()const;
 	char getcols()const;
 	bool captured()const;
